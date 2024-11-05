@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function AppAuth(){
   return (
     <section className="bg-white">
@@ -164,7 +166,7 @@ export function AppAuth(){
 
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                   Already have an account?
-                  <a href="#" className="text-gray-700 underline">Log in</a>.
+                  <Link href="dashboard" className="text-gray-700 underline">Log in</Link>.
                 </p>
               </div>
             </form>
