@@ -1,6 +1,6 @@
 export default function NotFound() {
   return (
-    {/* Graphic from https://www.opendoodles.com/ */}
+    // Graphic from https://www.opendoodles.com/
     <div className="grid h-screen place-content-center bg-white px-4">
       <div className="text-center">
         <svg

@@ -1,6 +1,6 @@
 import { Sidemenu } from "@/components/(app)/Sidemenu";
 
-export function Dashboard() {
+export default function Dashboard() {
   return (
     <>
       <Sidemenu />

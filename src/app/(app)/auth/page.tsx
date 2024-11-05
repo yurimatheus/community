@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export function AppAuth(){
+export default function AppAuth(){
   return (
     <section className="bg-white">
       <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
